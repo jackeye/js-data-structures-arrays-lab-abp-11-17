@@ -14,3 +14,7 @@ function destructivelyPrependDriver(name2){
 function destructivelyRemoveLastDriver(){
   drivers.pop("Garfield");
 }
+
+function appendDriver(name){
+  drivers.shift("Milo", "Otis", "Garfield", "Broom");
+}
