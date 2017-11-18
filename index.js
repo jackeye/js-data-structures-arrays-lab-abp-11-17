@@ -7,11 +7,11 @@ function destructivelyAppendDriver(name) {
 }
 
 
-function destructivelyPrependDriver(name){
+function destructivelyPrependDriver(){
   drivers.unshift(name2);
 }
 
-function destructivelyRemoveLastDriver(name){
+function destructivelyRemoveLastDriver(){
   drivers.pop("Garfield");
 }
 
