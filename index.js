@@ -19,8 +19,7 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift("Milo");
 }
 
-let name = "broom";
+//let name = "broom";
 function appendDriver(name){
   return (...drivers, name);
 }
-
