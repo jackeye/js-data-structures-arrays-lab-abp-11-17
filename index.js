@@ -19,11 +19,12 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift("Milo");
 }
 
+let name = "broom";
 function appendDriver(name){
   return (...drivers, name);
 }
 
-//let name2 = "Arnold";
-function prependDriver(name){
+/let name2 = "Arnold";
+function prependDriver(name2){
   return ( name, ...drivers);
 }
