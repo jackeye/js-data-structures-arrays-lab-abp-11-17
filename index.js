@@ -10,3 +10,7 @@ let name2 = "Bob";
 function destructivelyPrependDriver(name2){
   drivers.unshift(name2);
 }
+
+function destructivelyRemoveLastDriver(){
+  drivers.pop("Garfield");
+}
