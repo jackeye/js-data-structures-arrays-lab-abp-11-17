@@ -7,3 +7,4 @@ function destructivelyAppendDriver(name) {
 }
 
 destructivelyAppendDriver('Ralph');
+drivers.push(destructivelyAppendDriver);
