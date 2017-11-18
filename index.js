@@ -11,7 +11,7 @@ function destructivelyPrependDriver(name2){
   drivers.unshift(name2);
 }
 
-function destructivelyRemoveLastDriver(){
+function destructivelyRemoveLastDriver(name){
   drivers.pop("Garfield");
 }
 
